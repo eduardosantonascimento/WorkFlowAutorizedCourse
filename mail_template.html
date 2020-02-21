@@ -1,0 +1,26 @@
+<html>
+<head>
+<script>
+    <?= confirm_Chefia ?>
+</script>    
+</head>
+<body>
+
+<p id="demo"></p>
+<h1><b><div>FORMULÁRIO DE ANALISE DE CURSOS PARA PROGRESSÃO<BR><br/></div></b></h1>
+<p>Prezado <?= nomeChefia ?>  <?= matriculaChefia ?> ,</p>
+<p>Informamos que o servidor <?= nomeServidor ?>, preencheu o formulario de analise de cursos para capacitação para que você possa fazer validação do mesmo.</p>
+<p>Lembramos que o servidor precisa da validação da sua Chefia Imediata para que o mesmo esteja apto para progressão.</p>
+<p>O curso apresentado pelo servidor foi <b><?= cursoServidor ?></b> e enviamos em anexo a comprovação da conclusão do curso.<p>
+<br>
+<p>Aguardamos sua confirmação para darmos seguimento a avaliação.<p><br><br><br>
+<center>
+<form onsubmit="confirma_Chefia()">
+
+<input type="submit" id='mybtn' value ="APROVADO"/>
+
+</form>
+</center>
+</body>
+</html>
+
