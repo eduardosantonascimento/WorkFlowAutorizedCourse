@@ -1,4 +1,4 @@
-var ssID = "18prLLcd5WJHRZM1Mf0W8MkOb5brS1-ffqpIKnRwObj8"
+var ssID = "link"
 
 SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Dados").activate();
 
